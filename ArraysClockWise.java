@@ -7,7 +7,9 @@ import java.util.Arrays;
     {
        int a = arrays[arrays.length-1], i;
        for (i = arrays.length-1; i > 0; i--)
+       {
           arrays[i] = arrays[i-1];
+       }
        arrays[0] = a;
     }
      
